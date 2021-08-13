@@ -18,7 +18,7 @@ class Dep {
     }
   }
 
-  // 批量更新
+  // 通知依赖更新
   notify() {
     this.deps.forEach((dep) => dep());
   }

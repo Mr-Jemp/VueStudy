@@ -1,8 +1,3 @@
-import Vue from "vue";
-import App from "./App.vue";
-
-Vue.config.productionTip = false;
-
 let x;
 let y;
 let z;
@@ -87,7 +82,3 @@ watch(() => {
 x.value = 2;
 y.value = 3;
 z.value = 4;
-
-new Vue({
-  render: (h) => h(App),
-}).$mount("#app");
